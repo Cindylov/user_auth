@@ -20,7 +20,7 @@ const connectDB = async () => {
   try {
     mongoose.set("strictQuery", true);
     const conn = await mongoose.connect(
-      "mongodb+srv://cynthiaujunwa4:ujunwa123456@ujucluster0.w0pkpjl.mongodb.net/?retryWrites=true&w=majority"
+      "mongodbkey"
     );
 
     console.log(`Mongodb connected:${conn.connection.host}`);
